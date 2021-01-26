@@ -44,9 +44,11 @@ end
 add_new_holiday_with_supplies(holiday_supplies, :fall, :succas, ["lulav", "esrog", "schach"])
 
 def all_winter_holiday_supplies(holiday_hash)
-  
-
+  holiday_hash[:winter].values.flatten
 end
+
+all_winter_holiday_supplies(holiday_supplies)
+
 
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do | season, holiday|
