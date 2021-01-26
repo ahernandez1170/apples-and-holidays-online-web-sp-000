@@ -1,6 +1,6 @@
 require 'pry'
 
-#def second_supply_for_fourth_of_july(holiday_hash)
+def second_supply_for_fourth_of_july(holiday_hash)
   # given that holiday_hash looks like this:
   # {
   #   :winter => {
@@ -18,7 +18,7 @@ require 'pry'
   #   }
   # }
   # return the second element in the 4th of July array
-#end
+end
 
 def second_supply_for_fourth_of_july(holiday_supplies)
   holiday_supplies[:summer][:fourth_of_july][1]
